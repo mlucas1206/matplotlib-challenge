@@ -18,7 +18,7 @@ This assignment is broken down into the following tasks:
 - Submit your final analysis.
 
 ## Prepare the Data
-1. Run the provided package dependency and data imports, and then merge the ```mouse_metadata``` and ```study_results``` DataFrames into a single DataFrame.
+1. Run the provided package dependency and data imports, and then merge the `mouse_metadata` and `study_results` DataFrames into a single DataFrame.
 
 2. Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
 
@@ -56,7 +56,7 @@ Your summary statistics should include:
 
     - Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
 
-    -Determine outliers by using the upper and lower bounds, and then print the results.
+    - Determine outliers by using the upper and lower bounds, and then print the results.
 
 2. Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
 
